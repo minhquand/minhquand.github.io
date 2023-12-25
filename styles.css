@@ -1,15 +1,27 @@
-header footer {
+body {
+  background-color: dimgray;
+}
+
+header, footer{
 text-align: center;
 font-family: sans-serif;
 font-size: 32px;
 padding: 20px;
 background-color: #4d0f00;
 color: bisque;
+width: 800px;
+margin: 0 auto;
 }
 
-body {
-  background-color: dimgray;
+header {
+  border-bottom: 5px solid black;
 }
+
+footer {
+  border-top: 5px solid black;
+}
+
+
 
 .canvas {
   width: 500px;
